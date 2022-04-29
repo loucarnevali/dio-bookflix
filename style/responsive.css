@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   header .container {
     display: flex;
     flex-direction: column;
@@ -8,6 +8,20 @@
     margin-top: 5px;
     width: 190px;
     height: 60px;
+  }
+
+  .filme-principal .titulo {
+    font-size: 50px;
+  }
+
+  .filme-principal .descricao {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .botao {
+    margin-bottom: 3px;
   }
 }
 
